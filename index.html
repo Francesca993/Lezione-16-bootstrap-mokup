@@ -1,0 +1,810 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+
+<body>
+    <!--NAVBAR-->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <img class="dimLogo" src="assets/user.jpg" alt="">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!--PRIMO DROPDOWN-->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle fw-bold" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Browse
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#"></a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <!--SECONDO DROPDOWN-->
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle fw-bold" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Landings
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <!--TERZO DROPDOWN-->
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle fw-bold" href="#" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Pages
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <!--QUARTO DROPDOWN-->
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle fw-bold" href="#" role="button"
+                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                        Accounts
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">Action</a></li>
+                                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                                        <li>
+                                            <hr class="dropdown-divider">
+                                        </li>
+                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            <!--logo profilo-->
+                            <div class="d-flex">
+
+                                <div class="collapse navbar-collapse" id="logoBellsSupportedContent">
+                                    <div class="btn-group">
+                                        <button type="button" class="btn " data-bs-toggle="dropdown"
+                                            aria-expanded="false">
+                                            <div class="stileBells  position-relative">
+                                                <i class="bi bi-bell"></i>
+                                                <span class="pallinoViola"></span>
+                                            </div>
+                                        </button>
+
+                                        <ul class="dropdown-menu dropdown-menu-end">
+                                            <li><a class="dropdown-item" href="#"></a></li>
+                                            <li><a class="dropdown-item" href="#">Menu item</a></li>
+                                            <li><a class="dropdown-item" href="#">Menu item</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+
+
+                                <div class="collapse navbar-collapse" id="logoSupportedContent">
+                                    <div class="btn-group">
+                                        <button type="button" class="btn " data-bs-toggle="dropdown"
+                                            aria-expanded="false">
+                                            <div class="position-relative"><span class="pallinoBlu"></span>
+                                                <img class="logoProfilo" src="assets/avatar-5.jpg"
+                                                    alt="immagine del profilo">
+                                            </div>
+                                        </button>
+
+                                        <ul class="dropdown-menu dropdown-menu-end">
+                                            <li><a class="dropdown-item" href="#">
+                                                    <div class="d-flex justify-content-center align-items-center">
+                                                        <div>
+                                                            <div class="position-relative"><span
+                                                                    class="pallinoBlu"></span>
+                                                                <img class="logoProfilo" src="assets/avatar-5.jpg"
+                                                                    alt="immagine del profilo">
+                                                            </div>
+                                                        </div>
+                                                        <div>
+                                                            <p class="firstPLogoContent">Annette Black
+                                                            </p>
+                                                            <p class="secondtPLogoContent">annetteugee@sul.com</p>
+
+                                                        </div>
+                                                    </div>
+                                            <li>
+                                                <hr class="dropdown-divider">
+                                            </li>
+                                            <li><a class="dropdown-item" href="#">
+                                                    <i class="bi bi-person"></i> Profile</a></li>
+                                            <li><a class="dropdown-item" href="#">
+                                                    <i class="bi bi-star"></i> Subscription
+                                                </a></li>
+                                            <li><a class="dropdown-item" href="#">
+                                                    <i class="bi bi-gear"></i> Settings
+                                                </a></li>
+                                            <li>
+                                                <hr class="dropdown-divider">
+                                            </li>
+                                            <li><a class="dropdown-item" href="#">
+                                                    <i class="bi bi-x-circle-fill"></i> Log-Out
+                                                </a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+    </nav>
+
+    <!--JUMBOTRON-->
+    <div class="backgroundJumbotron">
+        <div class="container">
+            <div class="row">
+                <div class="col d-flex align-items-center">
+                    <div class="jumbotronStyle">
+                        <h1>Welcome Web Students!</h1>
+                        <p>
+                            Hand-picked Instructor and expertly crafted courses, designed for the modern students
+                            and
+                            entrepreneur.
+                        </p>
+                        <div>
+                            <button type="button" class="btn text-nowrap" id="btnUno">Browse Courses</button>
+                            <button type="button" class="btn text-nowrap" id="btnDue">Are you Instructor?</button>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col">
+                    <img src="assets/hero-img.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--infojumbotron-->
+    <div class="bordoJumb">
+        <div class="container">
+            <div class="row">
+                <!--PRIMA COLONNA-->
+                <div class="col-lg-4 col-md-12">
+                    <div class="stileEndJumbotron">
+                        <div class="iconaJumb">
+                            <i class="bi bi-camera-video"></i>
+                        </div>
+                        <div>
+                            <p class="pUnoJumb">
+                                30'000 Online courses
+                            </p>
+                            <p class="pDueJumb">
+                                Enjoy a variety of a fresh topics
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!--SECONDA COLONNA-->
+                <div class="col-lg-4 col-md-12">
+                    <div class="stileEndJumbotron">
+                        <div class="iconaJumb">
+                            <i class="bi bi-people"></i>
+                        </div>
+                        <div>
+                            <p class="pUnoJumb">
+                                Expert Instruction
+                            </p>
+                            <p class="pDueJumb">
+                                Find the right instructor for you
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!--TERZA COLONNA-->
+                <div class="col-lg-4 col-md-12">
+                    <div class="stileEndJumbotron">
+                        <div class="iconaJumb">
+                            <i class="bi bi-clock"></i>
+                        </div>
+                        <div>
+                            <p class="pUnoJumb">
+                                Lifetime Acces
+                            </p>
+                            <p class="pDueJumb">
+                                Learn on your schedule
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div id="dimensioniContenuto">
+        <!--CONTENUTO RECOMMENDED FOR YOU-->
+        <div class="backgroundContenuto">
+            <div class="container">
+                <div class="row">
+                    <h3 id="marginH3ContUno">Recommended to you</h3>
+                </div>
+            </div>
+
+            <!--PRIMO CAROSELLO-->
+            <div class="container">
+
+                <div id="firstCarousel" class="carousel slide">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="container">
+                                <div class="row">
+                                    <!--prima card-->
+                                    <div class="col-lg-3 col-md-6">
+                                        <div class="card ms-1">
+                                            <img src="assets/course-graphql.jpg" class="card-img-top" alt="GraphicQI">
+                                            <div class="card-body">
+                                                <p class="card-text">GraphQL: introduction to graph QL for beginners
+                                                </p>
+                                                <div class="contCard">
+                                                    <span>
+                                                        <i class="bi bi-clock"></i>2h 40min
+                                                    </span>
+                                                    <span>
+                                                        <i class="bi bi-bar-chart-fill"></i>Advance
+                                                    </span>
+                                                </div>
+
+                                                <div class="stars">
+                                                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                                        class="bi bi-star-half"></i><i class="bi bi-star"></i><i
+                                                        class="bi bi-star"></i>2.5<span>(1,500)</span>
+                                                </div>
+                                                <div class="prezzo">
+                                                    $500 <span class="textBarrato">$600</span>
+                                                </div>
+                                                <div class="footerCard">
+                                                    <img class="imgLogoProfilo" src="assets/avatar-5.jpg" alt="">
+                                                    <p>Brooklyn Simmons</p>
+                                                    <div class="dimLogoCardFoother">
+                                                        <i class="bi bi-bookmark"></i>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!--seconda card-->
+                                    <div class="col-lg-3 col-md-6">
+                                        <div class="card">
+                                            <img src="assets/course-javascript.jpg" class="card-img-top"
+                                                alt="course-javascript">
+                                            <div class="card-body">
+                                                <p class="card-text">A complete Beginner's Guide to JavaScript</p>
+                                                <div class="contCard">
+                                                    <span>
+                                                        <i class="bi bi-clock"></i>4h 10min
+                                                    </span>
+                                                    <span>
+                                                        <i class="bi bi-bar-chart-fill"></i>Advance
+                                                    </span>
+                                                </div>
+
+                                                <div class="stars">
+                                                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                                        class="bi bi-star-fill"></i><i class="bi bi-star-half"></i><i
+                                                        class="bi bi-star"></i>3.5<span>(7,500)</span>
+                                                </div>
+                                                <div class="prezzo">
+                                                    $700 <span class="textBarrato">$850</span>
+                                                </div>
+                                                <div class="footerCard">
+                                                    <img class="imgLogoProfilo" src="assets/avatar-1.jpg" alt="">
+                                                    <p>Jenny Wilson</p>
+                                                    <div class="dimLogoCardFoother">
+                                                        <i class="bi bi-bookmark"></i>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!--terza card-->
+                                    <div class="col-lg-3 col-md-6">
+                                        <div class="card">
+                                            <img src="assets/course-node.jpg" class="card-img-top" alt="course node">
+                                            <div class="card-body">
+                                                <p class="card-text">Beginning Node.js, Express, &MongoDB
+                                                    Development
+                                                </p>
+                                                <div class="contCard">
+                                                    <span>
+                                                        <i class="bi bi-clock"></i>2h 00min
+                                                    </span>
+                                                    <span>
+                                                        <i class="bi bi-bar-chart-fill"></i>Intermediate
+                                                    </span>
+                                                </div>
+
+                                                <div class="stars">
+                                                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                                                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                                                    <i class="bi bi-star"></i>4.0<span>(15,700)</span>
+                                                </div>
+                                                <div class="prezzo">
+                                                    $800 <span class="textBarrato">$950</span>
+                                                </div>
+                                                <div class="footerCard">
+                                                    <img class="imgLogoProfilo" src="assets/avatar-3.jpg" alt="">
+                                                    <p>Sina Ray</p>
+                                                    <div class="dimLogoCardFoother">
+                                                        <i class="bi bi-bookmark"></i>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!--quarta card-->
+                                    <div class="col-lg-3 col-md-6">
+                                        <div class="card">
+                                            <img src="assets/course-laravel.jpg" class="card-img-top"
+                                                alt="course course-laravel">
+                                            <div class="card-body">
+                                                <p class="card-text">Laravel: The Ultimate Beginner's Guide to Learn
+                                                </p>
+                                                <div class="contCard">
+                                                    <span>
+                                                        <i class="bi bi-clock"></i>1h 00min
+                                                    </span>
+                                                    <span>
+                                                        <i class="bi bi-bar-chart-fill"></i>Beginner
+                                                    </span>
+                                                </div>
+
+                                                <div class="stars">
+                                                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                                        class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                                        class="bi bi-star-half"></i></i>4.5<span>(2,500)</span>
+                                                </div>
+                                                <div class="prezzo">
+                                                    $170 <span class="textBarrato">$220</span>
+                                                </div>
+                                                <div class="footerCard">
+                                                    <img class="imgLogoProfilo" src="assets/avatar-7.jpg" alt="">
+                                                    <p>Sobo Rikhan</p>
+                                                    <div class="dimLogoCardFoother">
+                                                        <i class="bi bi-bookmark"></i>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!--SECONDO ELEMENTO CHE SCORRE-->
+
+                                </div>
+                            </div>
+                            <!--BOTTONI CAROSELLO-->
+                            <button class="carousel-control-prev" type="button" data-bs-target="#firstCarousel"
+                                data-bs-slide="prev">
+                                <i class="bi bi-caret-left-fill"></i>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#firstCarousel"
+                                data-bs-slide="next">
+                                <i class="bi bi-caret-right-fill"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!--CONTENUTO MOST POPULAR-->
+        <div class="backgroundContenuto">
+            <div class="container">
+                <div class="row">
+                    <h3 id="marginH3Contdue">Most popular</h3>
+                </div>
+            </div>
+
+            <!--SECONDO CAROSELLO-->
+            <div class="container">
+                <div id="secondCarousel" class="carousel slide">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="container">
+                                <div class="row">
+                                    <!--prima card-->
+                                    <div class="col-lg-3 col-md-6">
+                                        <div class="card ms-1">
+                                            <img src="assets/course-html.jpg" class="card-img-top" alt="GraphicQI">
+                                            <div class="card-body">
+                                                <p class="card-text">HTML Full Course - Build a WebSite Tutorial</p>
+                                                <div class="contCard">
+                                                    <span>
+                                                        <i class="bi bi-clock"></i>3h 16min
+                                                    </span>
+                                                    <span>
+                                                        <i class="bi bi-bar-chart-fill"></i>Beginner
+                                                    </span>
+                                                </div>
+
+                                                <div class="stars">
+                                                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                                        class="bi bi-star-fill"></i><i class="bi bi-star"></i><i
+                                                        class="bi bi-star"></i>3.0<span>(1,600)</span>
+                                                </div>
+                                                <div class="prezzo">
+                                                    $550 <span class="textBarrato">$700</span>
+                                                </div>
+                                                <div class="footerCard">
+                                                    <img class="imgLogoProfilo" src="assets/avatar-8.jpg"
+                                                        alt="Immagine profilo del professore">
+                                                    <p>Miston Wilson</p>
+                                                    <div class="dimLogoCardFoother">
+                                                        <i class="bi bi-bookmark"></i>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!--seconda card-->
+                                    <div class="col-lg-3 col-md-6">
+                                        <div class="card">
+                                            <img src="assets/course-javascript.jpg" class="card-img-top"
+                                                alt="course-javascript">
+                                            <div class="card-body">
+                                                <p class="card-text">A complete Beginner's Guide to JavaScript</p>
+                                                <div class="contCard">
+                                                    <span>
+                                                        <i class="bi bi-clock"></i>4h 10min
+                                                    </span>
+                                                    <span>
+                                                        <i class="bi bi-bar-chart-fill"></i>Advance
+                                                    </span>
+                                                </div>
+
+                                                <div class="stars">
+                                                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                                        class="bi bi-star-fill"></i><i class="bi bi-star-half"></i><i
+                                                        class="bi bi-star"></i>3.5<span>(7,500)</span>
+                                                </div>
+                                                <div class="prezzo">
+                                                    $700 <span class="textBarrato">$850</span>
+                                                </div>
+                                                <div class="footerCard">
+                                                    <img class="imgLogoProfilo" src="assets/avatar-1.jpg"
+                                                        alt="Immagine profilo del professore">
+                                                    <p>Jenny Wilson</p>
+                                                    <div class="dimLogoCardFoother">
+                                                        <i class="bi bi-bookmark"></i>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!--terza card-->
+                                    <div class="col-lg-3 col-md-6">
+                                        <div class="card">
+                                            <img src="assets/course-node.jpg" class="card-img-top" alt="course node">
+                                            <div class="card-body">
+                                                <p class="card-text">Beginning Node.js, Express, &MongoDB Development
+                                                </p>
+                                                <div class="contCard">
+                                                    <span>
+                                                        <i class="bi bi-clock"></i>2h 00min
+                                                    </span>
+                                                    <span>
+                                                        <i class="bi bi-bar-chart-fill"></i>Intermediate
+                                                    </span>
+                                                </div>
+
+                                                <div class="stars">
+                                                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                                                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                                                    <i class="bi bi-star"></i>4.0<span>(15,700)</span>
+                                                </div>
+                                                <div class="prezzo">
+                                                    $800 <span class="textBarrato">$950</span>
+                                                </div>
+                                                <div class="footerCard">
+                                                    <img class="imgLogoProfilo" src="assets/avatar-3.jpg"
+                                                        alt="Immagine profilo del professore">
+                                                    <p>Sina Ray</p>
+                                                    <div class="dimLogoCardFoother">
+                                                        <i class="bi bi-bookmark"></i>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!--quarta card-->
+                                    <div class="col-lg-3 col-md-6">
+                                        <div class="card">
+                                            <img src="assets/course-react.jpg" class="card-img-top" alt="course react">
+                                            <div class="card-body">
+                                                <p class="card-text">How to easily create a web site whit React</p>
+                                                <div class="contCard">
+                                                    <span>
+                                                        <i class="bi bi-clock"></i>3h 55min
+                                                    </span>
+                                                    <span>
+                                                        <i class="bi bi-bar-chart-fill"></i>Advance
+                                                    </span>
+                                                </div>
+
+                                                <div class="stars">
+                                                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                                        class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                                        class="bi bi-star-half"></i></i>4.5<span>(1,500)</span>
+                                                </div>
+                                                <div class="prezzo">
+                                                    $600 <span class="textBarrato">$750</span>
+                                                </div>
+                                                <div class="footerCard">
+                                                    <img class="imgLogoProfilo" src="assets/avatar-2.jpg"
+                                                        alt="Immagine profilo del professore">
+                                                    <p>April Noms</p>
+                                                    <div class="dimLogoCardFoother">
+                                                        <i class="bi bi-bookmark"></i>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!--SECONDO ELEMENTO CHE SCORRE-->
+
+
+                                    <!--BOTTONI CAROSELLO-->
+                                    <button class="carousel-control-prev" type="button" data-bs-target="#firstCarousel"
+                                        data-bs-slide="prev">
+                                        <i class="bi bi-caret-left-fill"></i>
+                                    </button>
+                                    <button class="carousel-control-next" type="button" data-bs-target="#firstCarousel"
+                                        data-bs-slide="next">
+                                        <i class="bi bi-caret-right-fill"></i>
+                                    </button>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--CONTENUTO TRENDING-->
+        <div class="backgroundContenuto">
+            <div class="container">
+                <div class="row">
+                    <h3 id="marginH3Contdue">Trending</h3>
+                </div>
+            </div>
+
+            <!--TERZO CAROSELLO-->
+            <div class="container">
+                <div id="thirdCarousel" class="carousel slide">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="container">
+                                <div class="row">
+                                    <!--prima card-->
+                                    <div class="col-lg-3 col-md-6">
+                                        <div class="card ms-1">
+                                            <img src="assets/course-gatsby.jpg" class="card-img-top" alt="Gatsby">
+                                            <div class="card-body">
+                                                <p class="card-text">Revolutionize how you build the web</p>
+                                                <div class="contCard">
+                                                    <span>
+                                                        <i class="bi bi-clock"></i>1h 46min
+                                                    </span>
+                                                    <span>
+                                                        <i class="bi bi-bar-chart-fill"></i>Intermediate
+                                                    </span>
+                                                </div>
+
+                                                <div class="stars">
+                                                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                                        class="bi bi-star"></i><i
+                                                        class="bi bi-star"></i>2.0<span>(16,500)</span>
+                                                </div>
+                                                <div class="prezzo">
+                                                    $800 <span class="textBarrato">$850</span>
+                                                </div>
+                                                <div class="footerCard">
+                                                    <img class="imgLogoProfilo" src="assets/avatar-3.jpg"
+                                                        alt="Immagine profilo del professore">
+                                                    <p>Jenny Wilson</p>
+                                                    <div class="dimLogoCardFoother">
+                                                        <i class="bi bi-bookmark"></i>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!--seconda card-->
+                                    <div class="col-lg-3 col-md-6">
+                                        <div class="card ms-1">
+                                            <img src="assets/course-html.jpg" class="card-img-top" alt="GraphicQI">
+                                            <div class="card-body">
+                                                <p class="card-text">HTML Full Course - Build a WebSite Tutorial</p>
+                                                <div class="contCard">
+                                                    <span>
+                                                        <i class="bi bi-clock"></i>3h 16min
+                                                    </span>
+                                                    <span>
+                                                        <i class="bi bi-bar-chart-fill"></i>Beginner
+                                                    </span>
+                                                </div>
+
+                                                <div class="stars">
+                                                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                                        class="bi bi-star-fill"></i><i class="bi bi-star"></i><i
+                                                        class="bi bi-star"></i>3.0<span>(1,600)</span>
+                                                </div>
+                                                <div class="prezzo">
+                                                    $550 <span class="textBarrato">$700</span>
+                                                </div>
+                                                <div class="footerCard">
+                                                    <img class="imgLogoProfilo" src="assets/avatar-8.jpg"
+                                                        alt="Immagine profilo del professore">
+                                                    <p>Miston Wilson</p>
+                                                    <div class="dimLogoCardFoother">
+                                                        <i class="bi bi-bookmark"></i>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!--terza card-->
+                                    <div class="col-lg-3 col-md-6">
+                                        <div class="card">
+                                            <img src="assets/course-node.jpg" class="card-img-top" alt="course node">
+                                            <div class="card-body">
+                                                <p class="card-text">Beginning Node.js, Express, &MongoDB Development
+                                                </p>
+                                                <div class="contCard">
+                                                    <span>
+                                                        <i class="bi bi-clock"></i>2h 00min
+                                                    </span>
+                                                    <span>
+                                                        <i class="bi bi-bar-chart-fill"></i>Intermediate
+                                                    </span>
+                                                </div>
+
+                                                <div class="stars">
+                                                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                                                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                                                    <i class="bi bi-star"></i>4.0<span>(15,700)</span>
+                                                </div>
+                                                <div class="prezzo">
+                                                    $800 <span class="textBarrato">$950</span>
+                                                </div>
+                                                <div class="footerCard">
+                                                    <img class="imgLogoProfilo" src="assets/avatar-3.jpg"
+                                                        alt="Immagine profilo del professore">
+                                                    <p>Sina Ray</p>
+                                                    <div class="dimLogoCardFoother">
+                                                        <i class="bi bi-bookmark"></i>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!--quarta card-->
+                                    <div class="col-lg-3 col-md-6">
+                                        <div class="card">
+                                            <img src="assets/course-laravel.jpg" class="card-img-top"
+                                                alt="course course-laravel">
+                                            <div class="card-body">
+                                                <p class="card-text">Laravel: The Ultimate Beginner's Guide to Learn</p>
+                                                <div class="contCard">
+                                                    <span>
+                                                        <i class="bi bi-clock"></i>1h 00min
+                                                    </span>
+                                                    <span>
+                                                        <i class="bi bi-bar-chart-fill"></i>Beginner
+                                                    </span>
+                                                </div>
+
+                                                <div class="stars">
+                                                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                                        class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                                        class="bi bi-star-half"></i></i>4.5<span>(2,500)</span>
+                                                </div>
+                                                <div class="prezzo">
+                                                    $170 <span class="textBarrato">$220</span>
+                                                </div>
+                                                <div class="footerCard">
+                                                    <img class="imgLogoProfilo" src="assets/avatar-7.jpg" alt="">
+                                                    <p>Sobo Rikhan</p>
+                                                    <div class="dimLogoCardFoother">
+                                                        <i class="bi bi-bookmark"></i>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!--SECONDO ELEMENTO CHE SCORRE-->
+
+
+                                    <!--BOTTONI CAROSELLO-->
+                                    <button class="carousel-control-prev" type="button" data-bs-target="#firstCarousel"
+                                        data-bs-slide="prev">
+                                        <i class="bi bi-caret-left-fill"></i>
+                                    </button>
+                                    <button class="carousel-control-next" type="button" data-bs-target="#firstCarousel"
+                                        data-bs-slide="next">
+                                        <i class="bi bi-caret-right-fill"></i>
+                                    </button>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!--FOOTER-->
+    <div id="stileFooter">
+        <div class="container">
+            <footer class="d-flex flex-wrap justify-content-between align-items-center">
+                <p class="col-md-4 mb-0 text-body-secondary">© 2022 Geeks. All Rights Reserved</p>
+
+                <ul class="nav col-md-4 justify-content-end">
+                    <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Privacy</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Terms</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Feedback</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Supports</a></li>
+                </ul>
+            </footer>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
