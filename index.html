@@ -192,6 +192,7 @@
             </div>
         </div>
     </div>
+
     <!--infojumbotron-->
     <div class="bordoJumb">
         <div class="container">
@@ -268,36 +269,42 @@
                                 <div class="row">
                                     <!--prima card-->
                                     <div class="col-lg-3 col-md-6">
-                                        <div class="card ms-1">
-                                            <img src="assets/course-graphql.jpg" class="card-img-top" alt="GraphicQI">
-                                            <div class="card-body">
-                                                <p class="card-text">GraphQL: introduction to graph QL for beginners
-                                                </p>
-                                                <div class="contCard">
-                                                    <span>
-                                                        <i class="bi bi-clock"></i>2h 40min
-                                                    </span>
-                                                    <span>
-                                                        <i class="bi bi-bar-chart-fill"></i>Advance
-                                                    </span>
-                                                </div>
-
-                                                <div class="stars">
-                                                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
-                                                        class="bi bi-star-half"></i><i class="bi bi-star"></i><i
-                                                        class="bi bi-star"></i>2.5<span>(1,500)</span>
-                                                </div>
-                                                <div class="prezzo">
-                                                    $500 <span class="textBarrato">$600</span>
-                                                </div>
-                                                <div class="footerCard">
-                                                    <img class="imgLogoProfilo" src="assets/avatar-5.jpg" alt="">
-                                                    <p>Brooklyn Simmons</p>
-                                                    <div class="dimLogoCardFoother">
-                                                        <i class="bi bi-bookmark"></i>
+                                        <div class="transitionFirsCard">
+                                            <div class="card ms-1">
+                                                <img src="assets/course-graphql.jpg" class="card-img-top"
+                                                    alt="GraphicQI">
+                                                <div class="card-body">
+                                                    <p class="card-text">GraphQL: introduction to graph QL for beginners
+                                                    </p>
+                                                    <div class="contCard">
+                                                        <span>
+                                                            <i class="bi bi-clock"></i>2h 40min
+                                                        </span>
+                                                        <span>
+                                                            <i class="bi bi-bar-chart-fill"></i>Advance
+                                                        </span>
                                                     </div>
-                                                </div>
 
+                                                    <div class="stars">
+                                                        <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                                            class="bi bi-star-half"></i><i class="bi bi-star"></i><i
+                                                            class="bi bi-star"></i>2.5<span>(1,500)</span>
+                                                    </div>
+                                                    <div class="prezzo">
+                                                        $500 <span class="textBarrato">$600</span>
+                                                    </div>
+                                                    <div class="footerCard">
+                                                        <img class="imgLogoProfilo" src="assets/avatar-5.jpg" alt="">
+                                                        <p>Brooklyn Simmons</p>
+                                                        <div class="dimLogoCardFoother transitionBookmark">
+                                                            <i class="bi bi-bookmark"></i>
+                                                        </div>
+                                                        <div class="transitionBookmarkFill">
+                                                            <i class="bi bi-bookmark-fill"></i>
+                                                        </div>
+                                                    </div>
+
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
@@ -414,12 +421,12 @@
                                 </div>
                             </div>
                             <!--BOTTONI CAROSELLO-->
-                            <button class="carousel-control-prev" type="button" data-bs-target="#firstCarousel"
-                                data-bs-slide="prev">
+                            <button id="posizionebtnprev" class="carousel-control-prev" type="button"
+                                data-bs-target="#firstCarousel" data-bs-slide="prev">
                                 <i class="bi bi-caret-left-fill"></i>
                             </button>
-                            <button class="carousel-control-next" type="button" data-bs-target="#firstCarousel"
-                                data-bs-slide="next">
+                            <button id="posizionebtnNext" class="carousel-control-next" type="button"
+                                data-bs-target="#firstCarousel" data-bs-slide="next">
                                 <i class="bi bi-caret-right-fill"></i></button>
                         </div>
                     </div>
