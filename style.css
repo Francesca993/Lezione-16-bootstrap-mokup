@@ -146,10 +146,10 @@
 /*STILE DELLE CARD*/
 
 #posizionebtnprev {
-  left: -90px;
+  width: fit-content;
 }
 #posizionebtnNext {
-  right: 90px;
+  width: fit-content;
 }
 
 .contCard {
@@ -196,22 +196,8 @@
 }
 
 /*EFFETTI TRANSIZIONI*/
-.transitionBookmark {
-  transition: display ease-in-out;
-}
-.transitionBookmarkFill {
-  transition: display;
-  height: 40px;
-  color: #a8a3b9;
-  display: none;
-}
-
-.transitionBookmark :hover {
-  display: none;
-}
-
-.transitionBookmarkFill:hover {
-  display: block;
+.dimLogoCardFoother:hover .bi-bookmark:before {
+  content: "\f199";
 }
 
 .transitionFirsCard {
@@ -219,8 +205,8 @@
 }
 
 .transitionFirsCard:hover {
-  transform: scale(1.2);
-  box-shadow: 10px 10px 5px #ec23d1c7;
+  transform: scale(1.1);
+  box-shadow: 1px 1px 20px 15px #5c505a69;
 }
 /*FINE TRANSIZIONI*/
 .stars {
